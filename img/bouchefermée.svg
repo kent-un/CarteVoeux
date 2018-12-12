@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10"
+   height="10"
+   viewBox="0 0 2.6458331 2.6458331"
+   version="1.1"
+   id="svg13473"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="bouchefermée.svg">
+  <defs
+     id="defs13467">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect10082"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.4"
+     inkscape:cx="24.27047"
+     inkscape:cy="19.955389"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata13470">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-294.35416)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.13196875px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 0.37598413,295.98649 c 0.4324479,-0.0329 0.86466287,-0.0657 1.16948397,-0.0473 0.3048211,0.0185 0.4824395,0.0883 0.659846,0.15804"
+       id="path10080"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect10082"
+       inkscape:original-d="m 0.37598413,295.98649 c 0.432439,-0.033 0.86465897,-0.0658 1.29669997,-0.0986 0.17765,0.0697 0.35528,0.13949 0.53263,0.20937" />
+  </g>
+</svg>
