@@ -16,6 +16,28 @@ main{
 svg{
     margin:auto;
 }
-#etoile2:hover{
-    fill: red;
+#etoile2{
+    fill: #ffcc00;
 }
+
+#etoile2:hover {
+    fill: red;
+    /* background-image: url("../img/snow-verydense-blur.png"); */
+}
+
+#boule {
+    opacity:0.98000004;
+    fill:#ffffff;
+    fill-opacity:0.37341775;
+    stroke:#faffff;
+    stroke-width:0.616;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    stroke-opacity:1;
+}
+
+
+
+
+
