@@ -22,8 +22,9 @@ svg{
 #rect977:hover{
     fill:#eeeeee;
 }
-#etoile:hover{
-    fill:red;
+#etoile{
+    fill:yellow;
+    filter: drop-shadow(0 0 10px yellow);
 }
 #svg7{
     position: absolute;
