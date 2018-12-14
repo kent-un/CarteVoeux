@@ -1,0 +1,40 @@
+/*******************Clignotement boule *******************/
+.bouleSapin {
+    /* Attribut background-color pour le SVG */
+    fill: green; 
+    position: relative;
+    /* Nom de l'animation + durée de l'animation + animation en boucle infini*/
+    animation: clignotement1 5s infinite;
+}
+
+@-webkit-keyframes clignotement1 {
+  0%   {fill: green;}
+  15%  {fill: yellow;}
+  20%   {fill: green;}
+  25%  {fill: red;}
+  30%   {fill: green;}
+  35%  {fill: white;}
+  40%   {fill: green;}
+  55%  {fill: gold;}
+  60%   {fill: green;}
+  75%  {fill: lawngreen;}
+  80%   {fill: green;}
+  95%  {fill: blue;}
+  100% {fill: green;}
+}
+
+#bouleSapin5, #bouleSapin1, #bouleSapin2, #bouleSapin4, #bouleSapin10, #bouleSapin3 {
+    fill: green;
+    position: relative;
+    animation: clignotement2 2s infinite;
+}
+
+@-webkit-keyframes clignotement2 {
+    0%   {fill: red;}
+    25%   {fill: green;}
+    50%  {fill: yellow;}
+    75%   {fill: green;}
+    100%  {fill: white;}
+}
+
+

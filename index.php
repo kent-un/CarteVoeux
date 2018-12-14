@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/styleNeige.css">
+    <link rel="stylesheet" href="./css/styleBoules.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <title>Carte de Voeux</title>
@@ -119,18 +120,18 @@
                         <path id="couleeNeige" d="m149.7 173.87c0.33265 0.25291 0.74207 0.41385 1.0747 0.66676 1.1771 0.87367 1.3306 2.4371 1.4074 3.8166 0.15354 2.9659 0.38383 5.9318 0.63972 8.8977 0.0768 0.68974 0.33265 1.5634 1.1003 1.6324 0.84443 0.046 1.2027-0.91966 1.2794-1.6784 0.33265-4.5063-0.61413-9.2655 1.4841-13.358 0.63972-1.2415 1.8168-2.4831 3.3521-2.4371 0.38383 0.023 0.84443 0.092 1.1259-0.13795 0.2303-0.20693 0.20471-0.5518 0.12795-0.82769-0.33266-1.3335-1.1259-2.5061-1.9192-3.6556-2.5844-3.7706-5.7319-6.9894-8.1372-10.829-0.33265-0.5288-0.74207-1.1036-1.4074-1.1726-0.69089-0.046-1.2538 0.50581-1.6377 1.0116-0.87002 1.1266-1.2794 2.2532-1.9192 3.4257-0.71649 1.3105-1.9703 2.3221-2.6868 3.6556-0.61412 1.1266-0.81883 2.667 0.2303 3.4947 0.35824 0.2759 0.79325 0.43684 1.2027 0.64376 2.9427 1.5864 2.303 5.1041 4.6827 6.8514z"/>
                         <ellipse id="bouleSapin1" class="bouleSapin" cx="141.1" cy="189.34" rx="1.3562" ry="1.2185"/>
                         <ellipse id="bouleSapin2" class="bouleSapin" cx="159.52" cy="203.11" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="ellipse1589" cx="148.32" cy="183.04" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin4" cx="167.31" cy="214.13" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin5" cx="130.92" cy="216.59" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin6" cx="141.67" cy="217.22" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="ellipse1589" class="bouleSapin" cx="148.32" cy="183.04" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin4" class="bouleSapin" cx="167.31" cy="214.13" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin5" class="bouleSapin" cx="130.92" cy="216.59" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin6" class="bouleSapin" cx="141.67" cy="217.22" rx="1.3562" ry="1.2185"/>
                     </g>
                     <g id="g1819" transform="translate(21.393 -78.506)" fill="#00692b" stroke-width=".24255">
-                        <ellipse id="bouleSapin7" cx="148.51" cy="202.57" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin8" cx="160.3" cy="191.07" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin9" cx="135.99" cy="205.57" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin10" cx="154.16" cy="215.37" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin11" cx="141.77" cy="177.43" rx="1.3562" ry="1.2185"/>
-                        <ellipse id="bouleSapin12" cx="160.68" cy="208.03" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin7" class="bouleSapin" cx="148.51" cy="202.57" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin8" class="bouleSapin" cx="160.3" cy="191.07" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin9" class="bouleSapin" cx="135.99" cy="205.57" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin10" class="bouleSapin" cx="154.16" cy="215.37" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin11" class="bouleSapin" cx="141.77" cy="177.43" rx="1.3562" ry="1.2185"/>
+                        <ellipse id="bouleSapin12" class="bouleSapin" cx="160.68" cy="208.03" rx="1.3562" ry="1.2185"/>
                     </g>
                     <ellipse id="refletBoule" transform="matrix(.80007 -.5999 .77744 .62895 0 0)" cx="34.863" cy="148.68" rx="21.606" ry="4.0137" fill="#fff" fill-opacity=".37342" opacity=".98"/>
                     <text id="s" transform="rotate(-19.73)" x="124.27802" y="185.42111" fill="#ffffff" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan id="tspan1431" x="124.27802" y="185.42111" fill="#ffffff" font-family="Sawasdee" font-size="10.332px" stroke-width=".26458">s</tspan></text>
@@ -291,20 +292,20 @@
                   </g>
                   <g transform="translate(21.393 -78.506)" fill="#fff" stroke-width=".24255">
                    <path id="couleeNeige" d="m149.7 173.87c0.33265 0.25291 0.74207 0.41385 1.0747 0.66676 1.1771 0.87367 1.3306 2.4371 1.4074 3.8166 0.15354 2.9659 0.38383 5.9318 0.63972 8.8977 0.0768 0.68974 0.33265 1.5634 1.1003 1.6324 0.84443 0.046 1.2027-0.91966 1.2794-1.6784 0.33265-4.5063-0.61413-9.2655 1.4841-13.358 0.63972-1.2415 1.8168-2.4831 3.3521-2.4371 0.38383 0.023 0.84443 0.092 1.1259-0.13795 0.2303-0.20693 0.20471-0.5518 0.12795-0.82769-0.33266-1.3335-1.1259-2.5061-1.9192-3.6556-2.5844-3.7706-5.7319-6.9894-8.1372-10.829-0.33265-0.5288-0.74207-1.1036-1.4074-1.1726-0.69089-0.046-1.2538 0.50581-1.6377 1.0116-0.87002 1.1266-1.2794 2.2532-1.9192 3.4257-0.71649 1.3105-1.9703 2.3221-2.6868 3.6556-0.61412 1.1266-0.81883 2.667 0.2303 3.4947 0.35824 0.2759 0.79325 0.43684 1.2027 0.64376 2.9427 1.5864 2.303 5.1041 4.6827 6.8514z"/>
-                   <ellipse class="bouleSapin" cx="141.1" cy="189.34" rx="1.3562" ry="1.2185"/>
-                   <ellipse class="bouleSapin" cx="159.52" cy="203.11" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="148.32" cy="183.04" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="167.31" cy="214.13" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="130.92" cy="216.59" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="141.67" cy="217.22" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin1" class="bouleSapin" cx="141.1" cy="189.34" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin2" class="bouleSapin" cx="159.52" cy="203.11" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin3" class="bouleSapin" cx="148.32" cy="183.04" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin4" class="bouleSapin" cx="167.31" cy="214.13" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin5" class="bouleSapin" cx="130.92" cy="216.59" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin6" class="bouleSapin" cx="141.67" cy="217.22" rx="1.3562" ry="1.2185"/>
                   </g>
                   <g transform="translate(21.393 -78.506)" fill="#00692b" stroke-width=".24255">
-                   <ellipse cx="148.51" cy="202.57" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="160.3" cy="191.07" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="135.99" cy="205.57" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="154.16" cy="215.37" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="141.77" cy="177.43" rx="1.3562" ry="1.2185"/>
-                   <ellipse cx="160.68" cy="208.03" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin7" class="bouleSapin" cx="148.51" cy="202.57" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin8" class="bouleSapin" cx="160.3" cy="191.07" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin9" class="bouleSapin" cx="135.99" cy="205.57" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin10" class="bouleSapin" cx="154.16" cy="215.37" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin11" class="bouleSapin" cx="141.77" cy="177.43" rx="1.3562" ry="1.2185"/>
+                   <ellipse id="bouleSapin12" class="bouleSapin" cx="160.68" cy="208.03" rx="1.3562" ry="1.2185"/>
                   </g>
                   <ellipse id="refletBoule" transform="matrix(.80007 -.5999 .77744 .62895 0 0)" cx="34.863" cy="148.68" rx="21.606" ry="4.0137" fill="#fff" fill-opacity=".37342" opacity=".98"/>
                   <text id="s" transform="rotate(-19.73)" x="124.27802" y="185.42111" fill="#ffffff" font-family="sans-serif" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="124.27802" y="185.42111" fill="#ffffff" font-family="Sawasdee" font-size="10.332px" stroke-width=".26458">s</tspan></text>
