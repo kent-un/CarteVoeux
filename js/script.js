@@ -42,11 +42,12 @@ modal.addEventListener("click", function(){
 
 })
 
-setTimeout(
-(boulesvg.addEventListener("mouseover", function(){
+
+boulesvg.addEventListener("mouseover", function(){
+    setInterval(function() {
     snow.style.backgroundImage="url(https://i.imgur.com/uYjnk8N.png), url(https://i.imgur.com/iAGD6MA.png), url(https://i.imgur.com/hIJDjbg.png)";
-    snow.style.animation="snow 10s linear infinite";
-})),2000);
+    snow.style.animation="snow 10s linear infinite"}, 800);
+})
 
 
 var bouleGuirlande = document.getElementsByClassName("bouleGuirlande");
