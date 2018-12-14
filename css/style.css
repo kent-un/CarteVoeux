@@ -1,43 +1,79 @@
 html{
     height:100%;
     width:100%;
-    background-color:gray;
+    background-color:rgba(128, 128, 128, 0.582);
 }
 body{
     height:100%;
     width: 100%;
 }
 main{
+    position:relative;
     height:100%;
     width:100%;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 svg{
+    width:100%;
+    height:100%;
     margin:auto;
 }
-#etoile2{
-    fill: #ffcc00;
+#rect977:hover{
+    fill:#eeeeee;
 }
-
-#etoile2:hover {
-    fill: red;
-    /* background-image: url("../img/snow-verydense-blur.png"); */
+#etoile:hover{
+    fill:red;
 }
-
-#boule {
-    opacity:0.98000004;
-    fill:#ffffff;
-    fill-opacity:0.37341775;
-    stroke:#faffff;
-    stroke-width:0.616;
-    stroke-miterlimit:4;
-    stroke-dasharray:none;
-    stroke-dashoffset:0;
-    stroke-opacity:1;
+#svg7{
+    position: absolute;
+    z-index:1;
 }
-
-
-
-
-
+#layer3{
+    width:100%;
+    height:100%;
+}
+#modalBoule{
+    display:flex;
+    visibility: hidden;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    z-index:2;
+}
+#snow{
+    width: 30%;
+    height:60%;
+    border-radius: 60%;
+    position: absolute;
+}
+    
+@keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+}
+#boulesvg:hover {
+        animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+}
+      
+@keyframes shake {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+      
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+      
+        40%, 60% {
+          transform: translate3d(4px, 0, 0);
+        }
+}
