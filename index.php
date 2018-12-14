@@ -423,7 +423,8 @@
                         'Content-Type: text/plain; charset="utf-8"'."\r\n".
                         'Content-Transfer-Encoding: 8bit';
             $mailtxt= 
-                    "".$nom." vous a envoyé une carte de voeux"
+                    "".$nom." vous a envoyé une carte de voeux,
+                    visualisez-la en cliquant sur ce lien: http://dcl.cartes.18pixel.fr/Coeur/index.php"
                     ;
             $retour=mail($emaildest, "Carte de voeux 2018", $mailtxt , $headers);
             if($retour)
