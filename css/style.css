@@ -1,3 +1,4 @@
+
 html{
     height:100%;
     width:100%;
@@ -18,9 +19,6 @@ svg{
     width:100%;
     height:100%;
     margin:auto;
-}
-#rect977:hover{
-    fill:#eeeeee;
 }
 #etoile{
     fill:yellow;
@@ -77,4 +75,37 @@ svg{
         40%, 60% {
           transform: translate3d(4px, 0, 0);
         }
+}
+
+#texteEcran{
+    display: none;
+}
+#modalForm{
+    display: none;
+    position: absolute;
+    z-index:4;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto; 
+    width:400px;
+    height:300px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5%;
+}
+#contentForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+    font-family: 'Roboto';
+}
+.fa-times{
+    margin-left:auto;
+}
+.fa-times:hover{
+    cursor: pointer;
 }

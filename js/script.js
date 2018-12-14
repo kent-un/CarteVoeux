@@ -37,10 +37,67 @@ modal.addEventListener("click", function(){
     modal.style.visibility="hidden";
     svg1.style.filter="none";
     player.pause();
-    activatedMod=false;}
+    activatedMod=false;
+}
+
 })
 
-boulesvg.addEventListener("mouseover", function(){
+setTimeout(
+(boulesvg.addEventListener("mouseover", function(){
     snow.style.backgroundImage="url(https://i.imgur.com/uYjnk8N.png), url(https://i.imgur.com/iAGD6MA.png), url(https://i.imgur.com/hIJDjbg.png)";
     snow.style.animation="snow 10s linear infinite";
+})),2000);
+
+
+var bouleGuirlande = document.getElementsByClassName("bouleGuirlande");
+
+function getRandomInt(max){
+    return Math.floor(Math.random() * Math.floor(max));
+}
+function color(random, classe){
+    switch(random){
+        case 0: bouleGuirlande[classe].style.fill="yellow";
+        break;
+        case 1: bouleGuirlande[classe].style.fill="blue";
+        break;
+        case 2: bouleGuirlande[classe].style.fill="green";
+        break;
+        case 3: bouleGuirlande[classe].style.fill="red";
+        break;
+        case 4: bouleGuirlande[classe].style.fill="white";
+        break;
+    }
+}
+function guirlande(){
+for(var i=0; i<11 ; i++){
+    var random1=getRandomInt(5);
+    color(random1, i)
+}}
+var intervalGuirlande = setInterval(guirlande, 800);
+
+var rectangleEcran= document.getElementById('rect977');
+var ecranHover= document.getElementById('texteEcran');
+var form=document.getElementById('modalForm');
+var close=document.getElementById('close');
+rectangleEcran.addEventListener("mouseenter", function(){
+    ecranHover.style.display="block";
+})
+ecranHover.addEventListener("mouseleave", function(){
+    ecranHover.style.display="none";
+})
+
+
+var formActivated = false;
+ecranHover.addEventListener('click', function(){
+    if(!formActivated){
+    form.style.display="block";
+    svg1.style.filter="blur(10px)";
+    formActivated=true;}
+})
+close.addEventListener("click", function(){
+    if(formActivated){
+    form.style.display="none";
+    svg1.style.filter="none";
+    formActivated=false;
+    }
 })
